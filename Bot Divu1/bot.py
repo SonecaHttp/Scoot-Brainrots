@@ -5,11 +5,11 @@ from random import shuffle, choice
 import time
 
 # CONFIGURAÇÕES:
-MENSAGEM_FIXA = """ESTOU TROCANDO VEM PV POSSO IR NO SEU SV - PRORCURO GARAM"""
+MENSAGEM_FIXA = """🌟 Troco Passo **Primeiro** Posso Ir No Seu **Servidor** Se Precisar 🌟"""
 IMAGEM_LOCAL = "C:/Users/kalin/Downloads/Bot Divu1/scoot.png"
 INTERVALO_SEGUNDOS = 76
 PROXY_LIST = [
-    "http://38.156.73.154:80",  # Substitua por seus proxies (exemplo: http://123.45.67.89:8080)
+    "http://38.156.73.154:80",  
     "http://39.102.213.3:3129",
     # Adicione mais proxies aqui
 ]
@@ -112,4 +112,5 @@ if __name__ == "__main__":
         print_banner()
         asyncio.run(spam_loop())
     except KeyboardInterrupt:
+
         print("\n\033[91m[!] Interrompido pelo usuário.\033[0m")
